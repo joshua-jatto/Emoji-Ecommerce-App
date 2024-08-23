@@ -7,7 +7,7 @@ import { useNavigate } from "react-router";
 export default function Cart() {
 
   const { cart, getTotalCartAmount } = useShop()
-  let totalAMount = getTotalCartAmount()
+  let totalAMount = getTotalCartAmount().toFixed(2)
   const navigate = useNavigate()
 
   return (

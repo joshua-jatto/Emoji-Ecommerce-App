@@ -27,7 +27,7 @@ export default function Home() {
       <div style={gridContainerStyle}
       >
         {PRODUCTS.map(product => {
-          return <ProductTile data={...product} key={product.id} />
+          return <ProductTile data={product} key={product.id} />
         })}
       </div>️
     </div>
