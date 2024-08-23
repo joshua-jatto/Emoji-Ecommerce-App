@@ -26,7 +26,7 @@ export default function Cart() {
       >
         {PRODUCTS.map(product => {
           if(cart[product.id] !== 0 ){
-          return <CartTile data={...product} key={product.id} />
+          return <CartTile data={product} key={product.id} />
           }
         })}
       </div>
