@@ -7,7 +7,7 @@ import { ShopProvider } from "./context/shop-Context";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ShopProvider>
-    <BrowserRouter basename="/">
+    <BrowserRouter basename="/Emoji-Ecommerce-App">
       <App />
     </BrowserRouter>
   </ShopProvider>
