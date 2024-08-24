@@ -1,8 +1,10 @@
 {
-  "name": "jatto-constructions",
+  "name": "Emoji-Ecommerce-App",
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage":"https://github.com/joshua-jatto/Emoji-Ecommerce-App",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
