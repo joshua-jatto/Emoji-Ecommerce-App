@@ -49,7 +49,6 @@ export default function carttTile({ data }) {
         fontWeight:'100',
         margin:'10px, auto ',
         width:'100%',
-        margin:'7px 0',
         fontFamily:"fantasy",
         padding:'5px'
       }}

@@ -15,7 +15,6 @@ export default function ProductTile({data}) {
       <p style={{fontWeight:'800',fontFamily:'cursive', fontSize:'16px'}}>${data.price}</p>
       <p style={{fontWeight:'800',fontFamily:'cursive', fontSize:'16px'}}>#📍:{(data.tags).join(' ')}</p>
       <button style={{
-        margin:'10px',
         height:'35px',
         border:'1px groove brown',
         background:'none',
