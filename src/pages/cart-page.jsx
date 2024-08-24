@@ -22,7 +22,7 @@ export default function Cart() {
       }}
     >
       <h3 style={{ margin: '1em auto', fontFamily: 'cursive', color: 'brown' }}>items in Cart:🛒</h3>
-      <div style={{ display: 'flex', flexDirection: 'row', gap: '.5rem', flexWrap: 'wrap', alignItems: 'center', justifyContent:'center', gap:'10px' }}
+      <div style={{ display: 'flex', flexDirection: 'row', gap: '.5rem', flexWrap: 'wrap', alignItems: 'center', justifyContent:'center' }}
       >
         {PRODUCTS.map(product => {
           if(cart[product.id] !== 0 ){
@@ -39,7 +39,6 @@ export default function Cart() {
         fontWeight:'100',
         margin:'10px, auto ',
         width:'50%',
-        margin:'7px 0',
         fontFamily:"cursive",
         padding:'5px'
       }}>
@@ -58,7 +57,6 @@ export default function Cart() {
         fontWeight:'100',
         margin:'10px, auto ',
         width:'50%',
-        margin:'7px 0',
         fontFamily:"fantasy",
         padding:'5px'
       }}

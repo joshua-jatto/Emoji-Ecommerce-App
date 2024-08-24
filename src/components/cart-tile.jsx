@@ -41,7 +41,6 @@ export default function carttTile({ data }) {
         </div>
 
          <div style={{
-        margin:'10px',
         height:'35px',
         border:'1px groove brown',
         background:'none',

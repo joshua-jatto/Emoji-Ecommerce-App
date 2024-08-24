@@ -22,7 +22,6 @@ export default function ProductTile({data}) {
         fontWeight:'100',
         margin:'10px, auto ',
         width:'100%',
-        margin:'7px 0',
         fontFamily:"fantasy"
       }}
       onClick={()=>addToCart(data.id)}
