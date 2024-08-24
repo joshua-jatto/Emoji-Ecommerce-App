@@ -7,7 +7,7 @@ import { ShopProvider } from "./context/shop-Context";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <ShopProvider>
-    <BrowserRouter>
+    <BrowserRouter basename="/">
       <App />
     </BrowserRouter>
   </ShopProvider>
