@@ -39,7 +39,7 @@ export function ShopProvider({ children }) {
     // loop for iterating through the array
     for(let i in cart){
 
-      if(cart[i] > 0){ //if cart at i > 0 i.e [i] in cart
+      if(cart[i] > 0){ //if cart at i > 0 i.e [i] cart
         let itemData = PRODUCTS.find(product => product.id === Number(i))
         totalAMount += cart[i] * itemData.price
       }
