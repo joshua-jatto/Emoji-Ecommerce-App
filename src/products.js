@@ -138,7 +138,7 @@ const Product = [
     imageUrl: "https://example.com/images/sleepy.png",
     manufacturer: "EmotionCo",
     releaseDate: "2023-10-11",
-  },
+  }
 ];
 
 export default Product;
